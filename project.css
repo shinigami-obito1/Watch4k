@@ -1,0 +1,33 @@
+#rem{
+    color: white;
+}
+#Forget{
+    color: white;
+}
+#creat{
+    color: blue;
+    
+}
+
+#home,
+.movie-page {
+    display: none;
+}
+
+
+#home:target,
+.movie-page:target {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: #000;
+    overflow: auto;
+}
+
+#home:target { z-index: 10; }
+.movie-page:target { z-index: 20; }
+.col:hover{
+    transform:scale(1.1) ;
+    transition: 2s;
+    
+}
